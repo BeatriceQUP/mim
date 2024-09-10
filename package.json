@@ -2,11 +2,11 @@
   "name": "mim",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "ng": "mim/node_modules/.bin/ng",
+    "start": "mim/node_modules/.bin/ng serve",
+    "build": "mim/node_modules/.bin/ng build",
+    "watch": "mim/node_modules/.bin/ng build --watch --configuration development",
+    "test": "mim/node_modules/.bin/ng test"
   },
   "private": true,
   "dependencies": {
